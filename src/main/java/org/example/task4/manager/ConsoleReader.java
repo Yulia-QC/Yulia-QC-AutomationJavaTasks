@@ -3,10 +3,10 @@ package org.example.task4.manager;
 import java.util.Scanner;
 
 public class ConsoleReader implements Reader {
-    public String readString(){
+    public String readString() {
         Scanner scanner = new Scanner(System.in);
 
-        while (!scanner.hasNextLine()){
+        while (!scanner.hasNextLine()) {
             System.out.println("Entered value should be String");
             scanner.nextLine();
         }
@@ -15,10 +15,11 @@ public class ConsoleReader implements Reader {
         return enteredString;
 
     }
-    public int readInteger(){
+
+    public int readInteger() {
         Scanner scanner = new Scanner(System.in);
 
-        while (!scanner.hasNextInt()){
+        while (!scanner.hasNextInt()) {
             System.out.println("Entered value should be Integer");
             scanner.nextLine();
         }
@@ -26,10 +27,11 @@ public class ConsoleReader implements Reader {
 
         return enteredInt;
     }
-    public double readDouble(){
+
+    public double readDouble() {
         Scanner scanner = new Scanner(System.in);
 
-        while (!scanner.hasNextDouble()){
+        while (!scanner.hasNextDouble()) {
             System.out.println("Entered value should be Double");
             scanner.nextLine();
         }

@@ -2,11 +2,8 @@ package org.example.task4.manager;
 
 import org.example.task4.planes.BombardierGlobalXRS6000;
 import org.example.task4.planes.Falcon2000;
-import org.example.task4.planes.LightPlane;
 import org.example.task4.planes.Plane;
 import org.example.task4.utils.Angar;
-
-import java.util.Scanner;
 
 public class AirplaneMenu extends Angar {
     private static Reader reader = new ConsoleReader();

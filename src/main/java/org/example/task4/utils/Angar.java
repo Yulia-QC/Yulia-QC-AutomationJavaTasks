@@ -34,9 +34,9 @@ public class Angar {
             int planeIndexInNewArray = 0;
 
             for (int i = 0; i < planes.length; i++) {
-                if(i != index-1){
+                if (i != index - 1) {
                     newPlanes[planeIndexInNewArray] = planes[i];
-                    planeIndexInNewArray ++;
+                    planeIndexInNewArray++;
                 }
             }
             planes = newPlanes;
